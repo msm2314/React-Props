@@ -1,7 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
-import "../public/styles.css";
+
+// styles.css is served from public/ and linked in public/index.html,
+// so it is deliberately not imported here (react-scripts forbids
+// imports from outside the src/ directory).
 
 ReactDOM.render(
   <div>

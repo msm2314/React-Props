@@ -1,5 +1,5 @@
 import React from "react";
-import "../public/styles.css";
+
 function App(a) {
   return (
     <div>
